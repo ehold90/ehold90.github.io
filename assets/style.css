@@ -1,0 +1,34 @@
+body {
+  background: coral;
+  font-family: system-ui, sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  color: aliceblue;
+  font-weight: 400;
+}
+
+nav {
+  background-color: aliceblue;
+  display: flex;
+}
+
+nav a {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.active {
+  color: aliceblue;
+  background-color: coral;
+  text-decoration: underline;
+}
+
+p {
+  color: aliceblue;
+}
+
+h2 {
+  color: gray;
+}
