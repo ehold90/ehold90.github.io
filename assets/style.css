@@ -19,6 +19,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  background-color: coral;
+}
+
 .active {
   color: aliceblue;
   background-color: coral;
