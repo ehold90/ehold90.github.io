@@ -2,7 +2,7 @@ body {
   background: coral;
   font-family: system-ui, sans-serif;
   font-weight: lighter;
-  margin: 2em;
+  margin: 1em;
 }
 
 img {
@@ -49,6 +49,7 @@ h2 {
 
 .cardgroup {
   display: flex;
+  flex-direction: column;
   margin-left: -10px;
   margin-right: -10px;
 }
@@ -68,4 +69,33 @@ h2 {
   border-radius: 30px;
   background: tomato;
   transform: scale(1.05);
+}
+
+h1, h2, h3 {
+  font-family: Rubik, sans-serif;
+}
+
+@media (min-width: 500px){
+  body {
+    background: mediumorchid;
+    margin: 2em;
+  }
+
+}
+
+
+@media (min-width: 820px) {
+  body {
+    background: blue;
+    display: flex;
+
+  }
+  nav {
+    margin-right: 40px;
+    flex-direction: column;
+  }
+  .cardgroup {
+    flex-direction: row;
+  }
+  main
 }
